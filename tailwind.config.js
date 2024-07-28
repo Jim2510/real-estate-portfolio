@@ -7,6 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        edu: ["Edu AU VIC WA NT Hand", "cursive"],
+        caveat: ["caveat", "cursive"],
+        quicksand: ["quicksand", "sans-serif"],
+      },
+      margin: {
+        "margin-nav": "100px",
+      },
+      spacing: {
+        "nav-w": "100px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
