@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
-import Picture from "./components/Picture";
+import Picture from "./components/home/Picture";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="scrollbar-hide">
       <Navbar />
       <Picture />
     </main>

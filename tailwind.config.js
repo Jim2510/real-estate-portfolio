@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#BB0068",
+      },
       fontFamily: {
         edu: ["Edu AU VIC WA NT Hand", "cursive"],
         caveat: ["caveat", "cursive"],
@@ -25,5 +28,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
